@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".pers_highscore">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="SPIELER NAME" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="ENTFERNUNG (METER)                       "
+                    android:textSize="24sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="GELD                              " >
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 1." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 2." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 3." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 4." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 5." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 6." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 7." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 8." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text=" 9." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_place10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="10." >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_name10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_miles10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_punkte10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/cmd_Clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="24sp"
+                    android:text="Clear" >
+                </Button>
+
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</ScrollView>

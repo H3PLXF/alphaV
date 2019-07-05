@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAAAAA">
+
+    <TextView
+        android:id="@+id/tv_GameOver"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:background="#88888888"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Game Over"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/cmd_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="Neustart" />
+
+    <Button
+        android:id="@+id/cmd_Menue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:text="Menü" />
+
+</FrameLayout>

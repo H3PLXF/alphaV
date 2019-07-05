@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".einstellungen">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Geschwindigkeit " >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Anzahl_Money" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_Anzahl_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_anzahl_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Anzahl_Hinderniss" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_Anzahl_obstaces"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_anzahl_obst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/profession"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Anzahl_Y_Points" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_Anzahl_Y_Points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_anzahlYPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Anzahl Leben" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_Anzahl_leben"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_anzahlLeben"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  MAX_COL_CNT_Hinderniss" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_max_col_cnt_obst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_max_col_cnt_obst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/hobby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  MAX_ROW_CNT_Hinderniss" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_max_row_cnt_obst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_max_row_cnt_obst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/ilike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Blinkintervall USR" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_Flashtime_USR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_flashtimeUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/idislike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Blinkdauer USR" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_flashcnt_USR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/cmd_standart_flashcntUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Größe USR IMG" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_groesse_USRIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_groesseUSRIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_abstandUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Abstand Spurlinien USR IMG" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_abstand_spur_USRIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_abstandSpurUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_grosseMoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Größe Money IMG" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_groesse_MoneyIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_groesseMoneyIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_abstandMoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Abstand Money IMG" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_abstand_spur_moneyIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_abstandSpurMoneyIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_grosseObstacel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Größe Hinderniss IMG" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_groesse_obstIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_groesseObstIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_abstandObst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Abstand Hinderniss IMG" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_abstand_spur_obstIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_abstandSpurObstIMG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_obst_percent_from_usr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Hinderniss percent from USR" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_obst_percent_fromUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_obstPercentFromUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_money_percent_fromUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Money percent from USR" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_money_percent_fromUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_moneyPercentFromUSR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_less_hit_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Less Hit Size" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/ed_less_hit_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/cmd_standart_less_hit_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="..."/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_Hit_Obst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:text="  Hit Hindernisse" >
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/chk_hit_Obst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/cmd_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SICHERN"/>
+                <Button
+                    android:id="@+id/cmd_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABBRUCH"/>
+
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+
+</ScrollView>
